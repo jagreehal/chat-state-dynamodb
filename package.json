@@ -1,6 +1,6 @@
 {
   "name": "chat-state-dynamodb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DynamoDB state adapter for Chat SDK: thread subscriptions, distributed locks and caching on a single table, no Redis, no VPC",
   "type": "module",
   "sideEffects": false,
