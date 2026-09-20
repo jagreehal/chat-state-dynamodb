@@ -1,0 +1,29 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "import", "node", "promise", "vitest"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn",
+    "perf": "warn"
+  },
+  "env": {
+    "node": true
+  },
+  "ignorePatterns": ["dist/**"],
+  "options": {
+    "typeAware": true
+  },
+  "rules": {
+    "no-await-in-loop": "off",
+    "typescript/no-unsafe-type-assertion": "off",
+    "typescript/no-unnecessary-type-parameters": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.ts"],
+      "env": {
+        "vitest": true
+      }
+    }
+  ]
+}
