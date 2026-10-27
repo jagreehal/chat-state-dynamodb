@@ -37,7 +37,7 @@
   "peerDependencies": {
     "@aws-sdk/client-dynamodb": ">=3.600.0",
     "@aws-sdk/lib-dynamodb": ">=3.600.0",
-    "chat": ">=4.0.0"
+    "chat": "^4.0.0"
   },
   "devDependencies": {
     "@aws-sdk/client-dynamodb": "3.1136.0",
@@ -54,6 +54,7 @@
   },
   "keywords": [
     "chat-sdk",
+    "chat-adapter",
     "chat",
     "state-adapter",
     "dynamodb",
